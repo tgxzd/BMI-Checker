@@ -1,0 +1,18 @@
+{
+  "homepages":"http://tgxzd.github.io/BMI-Checker",
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
